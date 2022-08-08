@@ -10,3 +10,43 @@ html, body {
     --dark-grey: #707070;
     font-family: "Poppins", sans-serif;
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header {
+    padding: 15px 0;
+    box-shadow: 1px 0 15px rgba(98, 98, 98, 0.294);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-contained {
+    background-color: var(--primary);
+    padding: 10px 35px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.btn-void {
+    background-color: #FAFAFA;
+    padding: 10px 35px;
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 25px;
+}
