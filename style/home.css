@@ -139,6 +139,43 @@ header {
     width: 37px;
     height: 37px;
     background-color: var(--light-grey);
-    bottom: 35px;
+    bottom: 45px;
     z-index: 50;
+}
+
+/* Por que Section */
+.porq {
+    background-image: linear-gradient(var(--secondary), var(--primary));
+    margin-top: -100px;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+}
+
+.porq::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 4px #fff;
+    background-color: var(--secondary);
+    background-image: url(../img/icon-trigulo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 50%;
+    transform: translate(50%);
+    top: -30px;
+    position: absolute;
+}
+
+.porq h2 {
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.porq hr {
+    width: 10%;
+    border-color: rgba(255, 255, 255, 0.25);
 }
