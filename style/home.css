@@ -179,3 +179,30 @@ header {
     width: 10%;
     border-color: rgba(255, 255, 255, 0.25);
 }
+
+.porq-campos-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.porq-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.porq-item h4, .porq-item p {
+    margin: 0;
+}
+
+.porq-item div:first-child {
+    border: solid 2px #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.porq-item i {
+    font-size: 40px;
+}
