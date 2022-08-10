@@ -147,7 +147,7 @@ header {
 .porq {
     background-image: linear-gradient(var(--secondary), var(--primary));
     margin-top: -100px;
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     color: #fff;
     position: relative;
 }
@@ -205,4 +205,16 @@ header {
 
 .porq-item i {
     font-size: 40px;
+}
+
+/* Section faqs */
+.division-wave {
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/wave.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom;
+  position: relative;
+  top: -50px;
 }
