@@ -218,3 +218,24 @@ header {
   position: relative;
   top: -50px;
 }
+
+.title-section-faqs {
+  text-align: center;
+  color: var(--dark-grey);
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.title-section-faqs h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.title-section-faqs p {
+  font-size: 20px;
+}
+
+.title-section-faqs hr {
+  width: 10%;
+  margin: 0 auto;
+}
