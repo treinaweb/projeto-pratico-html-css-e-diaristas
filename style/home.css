@@ -377,9 +377,54 @@ footer {
   .porq {
     margin-top: 0;
   }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 0;
+  }
 }
 
-@media(max-width: 768px) {}
+@media(max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .principal-section, .principal-description {
+    width: 100%;
+    display: block;
+  }
+
+  .principal-description {
+    gap: 0;
+    max-width: 100%;
+  }
+
+  .principal-diarista-text, .principal-description p {
+    border: none;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .principal-diarista-text::after{
+    display: none;
+  }
+
+  .principal-diarista-text span {
+    color: var(--dark-grey);
+  }
+
+  .principal-description a {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: 30px auto 10px auto;
+  }
+}
 
 
 @media(max-width: 600px) {}
