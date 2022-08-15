@@ -207,6 +207,10 @@ header {
     font-size: 40px;
 }
 
+.porq-campos-item hr {
+  display: none;
+}
+
 /* Section faqs */
 .division-wave {
   width: 100%;
@@ -427,4 +431,26 @@ footer {
 }
 
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+  .porq-campos-item {
+    gap: 15px;
+  }
+
+  .porq-campos-item hr {
+    width: 100%;
+    display: block;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .porq-item i {
+    font-size: 24px;
+  }
+
+  .btn-header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
