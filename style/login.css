@@ -80,8 +80,9 @@ header {
 .principal-content {
   display: grid;
   place-items: center;
-  margin-top: 50px;
-  padding-bottom: 70px;
+  margin: 50px 0;
+  padding: 50px 0;
+  box-shadow: 1px 1px 15px #a9a9a950;
 }
 
 .form-field {
@@ -112,7 +113,25 @@ header {
   color: #9b9b9b;
 } 
 
+.btn-form {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 
+.btn-form a {
+  display: none;
+}
+
+.btn-form button {
+  padding: 17px 20px;
+  width: 250px;
+  border-radius: 3px;
+  outline: auto;
+  color: #fff;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
 
 
 
